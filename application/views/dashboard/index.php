@@ -140,6 +140,7 @@
 </div>
 
 <script src="<?php echo base_url(); ?>assets/js/demo_pages/form_checkboxes_radios.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/plugins/tables/datatables/datatables.min.js"></script>
 
 <?php include(APPPATH."views/inc/footer.php"); ?>
 

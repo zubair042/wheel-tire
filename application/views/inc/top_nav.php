@@ -1,4 +1,4 @@
-<!-- Main navbar -->
+Main navbar -->
 	<div class="navbar navbar-expand-md navbar-dark bg-indigo navbar-static">
 		<div class="navbar-brand">
 			<a href="index.html" class="d-inline-block">
@@ -30,7 +30,7 @@
 			</span>
 
 			<ul class="navbar-nav ml-md-auto">
-				<li class="nav-item dropdown">
+				<!-- <li class="nav-item dropdown">
 					<a href="#" class="navbar-nav-link dropdown-toggle" data-toggle="dropdown">
 						<i class="icon-make-group mr-2"></i>
 						Connect
@@ -169,7 +169,7 @@
 							</div>
 						</div>
 					</div>
-				</li>
+				</li> -->
 
 				<li class="nav-item">
 					<a href="<?php //echo site_url("agency/auth/logout"); ?>" class="navbar-nav-link">
@@ -180,4 +180,4 @@
 			</ul>
 		</div>
 	</div>
-	<!-- /main navbar -->
+	<!-- /main navbar
