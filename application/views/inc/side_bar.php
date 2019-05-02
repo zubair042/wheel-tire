@@ -98,8 +98,8 @@
 							<a href="#" class="nav-link"><i class="icon-calendar3"></i> <span>Users</span></a>
 
 							<ul class="nav nav-group-sub" data-submenu-title="Layouts">
-								<li class="nav-item"><a href="<?php echo site_url(""); ?>" class="nav-link">List Users</a></li>
-								<li class="nav-item"><a href="<?php echo site_url(""); ?>" class="nav-link">Add new User</a></li>
+								<li class="nav-item"><a href="<?php echo site_url("users"); ?>" class="nav-link">List Users</a></li>
+								<li class="nav-item"><a href="<?php echo site_url("register"); ?>" class="nav-link">Add new User</a></li>
 							</ul>
 						</li>
 						
