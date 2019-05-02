@@ -86,6 +86,22 @@
 								</span>
 							</a>
 						</li>
+						<li class="nav-item nav-item-submenu">
+							<a href="#" class="nav-link"><i class="icon-calendar3"></i> <span>Reports</span></a>
+
+							<ul class="nav nav-group-sub" data-submenu-title="Layouts">
+								<li class="nav-item"><a href="<?php echo site_url(""); ?>" class="nav-link">View List Reports</a></li>
+								<li class="nav-item"><a href="<?php echo site_url(""); ?>" class="nav-link">Add new Report</a></li>
+							</ul>
+						</li>
+						<li class="nav-item nav-item-submenu">
+							<a href="#" class="nav-link"><i class="icon-calendar3"></i> <span>Users</span></a>
+
+							<ul class="nav nav-group-sub" data-submenu-title="Layouts">
+								<li class="nav-item"><a href="<?php echo site_url(""); ?>" class="nav-link">List Users</a></li>
+								<li class="nav-item"><a href="<?php echo site_url(""); ?>" class="nav-link">Add new User</a></li>
+							</ul>
+						</li>
 						
 						
 					</ul>
