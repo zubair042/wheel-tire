@@ -1,4 +1,4 @@
-Main navbar -->
+
 	<div class="navbar navbar-expand-md navbar-dark bg-indigo navbar-static">
 		<div class="navbar-brand">
 			<a href="index.html" class="d-inline-block">
