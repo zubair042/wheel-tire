@@ -62,12 +62,26 @@ body {
 
               <div class="card-body" style="margin-top: 40px;">
                 <ul class="nav nav-pills nav-justified" >
-                  <li class="nav-item"><a href="#justified-rounded-pill1" style=" font-size: 20px;" class="nav-link rounded-round active" data-toggle="tab">Sign Up</a></li>
-                  <li class="nav-item"><a href="#justified-rounded-pill2" style="font-size: 20px;" class="nav-link rounded-round" data-toggle="tab">Sign In</a></li>
+                  <li class="nav-item"><a href="#justified-rounded-pill1" style=" font-size: 20px;" class="nav-link rounded-round active" data-toggle="tab">Sign In</a></li>
+                  <li class="nav-item"><a href="#justified-rounded-pill2" style="font-size: 20px;" class="nav-link rounded-round" data-toggle="tab">Sign Up</a></li>
                 </ul>
 
                 <div class="tab-content" style="margin-top: 35px;">
                   <div class="tab-pane fade show active" id="justified-rounded-pill1">
+                    <div class="form-group">
+                      <label for="name">Email Address</label>
+                      <input type="text" class="form-control" name="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                      <label for="password">Password</label>
+                      <input type="text" class="form-control" name="password" placeholder="Enter password ">
+                    </div>
+                    <div class="text-center">
+                      <input type="submit" class="btn btn-primary" value="Login">
+                    </div> 
+                  </div>
+
+                  <div class="tab-pane fade" id="justified-rounded-pill2">
                     <div class="form-group">
                       <label for="company_id">Company ID</label>
                       <input type="text" class="form-control" name="company_id" placeholder="Enter your company id">
@@ -87,20 +101,7 @@ body {
                     <div class="text-center">
                       <input type="submit" class="btn btn-primary" value="Sign Up">
                     </div>
-                  </div>
-
-                  <div class="tab-pane fade" id="justified-rounded-pill2">
-                    <div class="form-group">
-                      <label for="name">Email Address</label>
-                      <input type="text" class="form-control" name="email" placeholder="Enter your email">
-                    </div>
-                    <div class="form-group">
-                      <label for="password">Password</label>
-                      <input type="text" class="form-control" name="password" placeholder="Enter password ">
-                    </div>
-                    <div class="text-center">
-                      <input type="submit" class="btn btn-primary" value="Login">
-                    </div>
+                    
                   </div>
                 </div>
               </div>
