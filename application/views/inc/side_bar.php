@@ -22,7 +22,7 @@
 					<div class="sidebar-user-material-body">
 						<div class="card-body text-center">
 							<a href="#">
-								<img src="<?php echo base_url(); ?>assets/images/placeholders/placeholder.jpg" class="img-fluid rounded-circle shadow-1 mb-3" width="80" height="80" alt="">
+								<img src="<?php echo base_url(); ?>assets/images/placeholders/avatar.png" class="img-fluid rounded-circle shadow-1 mb-3" width="80" height="80" alt="">
 							</a>
 							<h6 class="mb-0 text-white text-shadow-dark">Victoria Baker</h6>
 							<span class="font-size-sm text-white text-shadow-dark">Santa Ana, CA</span>
@@ -79,7 +79,7 @@
 						<!-- Main -->
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Main</div> <i class="icon-menu" title="Main"></i></li>
 						<li class="nav-item">
-							<a href="index.html" class="nav-link active">
+							<a href="<?php echo site_url('dashboard'); ?>" class="nav-link active">
 								<i class="icon-home4"></i>
 								<span>
 									Dashboard
@@ -87,13 +87,6 @@
 							</a>
 						</li>
 						
-						<!-- <li class="nav-item">
-							<a href="changelog.html" class="nav-link">
-								<i class="icon-list-unordered"></i>
-								<span>Changelog</span>
-								<span class="badge bg-blue-400 align-self-center ml-auto">2.1</span>
-							</a>
-						</li> -->
 						
 					</ul>
 				</div>
