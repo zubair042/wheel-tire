@@ -1,4 +1,7 @@
+
+
 <?php include(APPPATH."views/inc/header.php"); ?>
+<script src="<?php echo base_url(); ?>assets/js/plugins/media/fancybox.min.js"></script>
 <div class="content">
 	<div class="row">
 		<div class="col-md-12">
@@ -47,47 +50,87 @@
 							<h4 class="font-weight-semibold" style="text-align: center;color: #f9f9f9;"> LEFT FRONT WHEEL POSITION</h4>
 							<div class="row">
 								<div class="col-md-3">
-									<a href="#">
-										<img src="<?php echo base_url(); ?>assets/images/placeholders/placeholder.jpg" class="img-fluid card-img-top" alt="">
-									</a>	
+									<div class="card-img-actions m-1">
+										<img class="card-img img-fluid" src="<?php echo base_url(); ?>assets/images/placeholders/placeholder.jpg" alt="">
+										<div class="card-img-actions-overlay card-img">
+											<a href="<?php echo base_url(); ?>assets/images/placeholders/placeholder.jpg" class="btn btn-outline bg-white text-white border-white border-2 btn-icon rounded-round" data-popup="lightbox" rel="group">
+												<i class="icon-plus3"></i>
+											</a>
+										</div>
+									</div>	
 								</div>
 								<div class="col-md-3">
-									<a href="#">
-										<img src="<?php echo base_url(); ?>assets/images/placeholders/placeholder.jpg" class="img-fluid card-img-top" alt="">
-									</a>	
+									<div class="card-img-actions m-1">
+										<img class="card-img img-fluid" src="<?php echo base_url(); ?>assets/images/placeholders/placeholder.jpg" alt="">
+										<div class="card-img-actions-overlay card-img">
+											<a href="<?php echo base_url(); ?>assets/images/placeholders/placeholder.jpg" class="btn btn-outline bg-white text-white border-white border-2 btn-icon rounded-round" data-popup="lightbox" rel="group">
+												<i class="icon-plus3"></i>
+											</a>
+										</div>
+									</div>	
 								</div>
 								<div class="col-md-3">
-									<a href="#">
-										<img src="<?php echo base_url(); ?>assets/images/placeholders/placeholder.jpg" class="img-fluid card-img-top" alt="">
-									</a>	
+									<div class="card-img-actions m-1">
+										<img class="card-img img-fluid" src="<?php echo base_url(); ?>assets/images/placeholders/placeholder.jpg" alt="">
+										<div class="card-img-actions-overlay card-img">
+											<a href="<?php echo base_url(); ?>assets/images/placeholders/placeholder.jpg" class="btn btn-outline bg-white text-white border-white border-2 btn-icon rounded-round" data-popup="lightbox" rel="group">
+												<i class="icon-plus3"></i>
+											</a>
+										</div>
+									</div>	
 								</div>
 								<div class="col-md-3">
-									<a href="#">
-										<img src="<?php echo base_url(); ?>assets/images/placeholders/placeholder.jpg" class="img-fluid card-img-top" alt="">
-									</a>	
+									<div class="card-img-actions m-1">
+										<img class="card-img img-fluid" src="<?php echo base_url(); ?>assets/images/placeholders/placeholder.jpg" alt="">
+										<div class="card-img-actions-overlay card-img">
+											<a href="<?php echo base_url(); ?>assets/images/placeholders/placeholder.jpg" class="btn btn-outline bg-white text-white border-white border-2 btn-icon rounded-round" data-popup="lightbox" rel="group">
+												<i class="icon-plus3"></i>
+											</a>
+										</div>
+									</div>	
 								</div>
 							</div>
 							<h4 class="font-weight-semibold" style="text-align: center;color: #f9f9f9;margin-top: 12px;"> RIGHT REAR WHEEL POSITION</h4>
 							<div class="row">
 								<div class="col-md-3">
-									<a href="#">
-										<img src="<?php echo base_url(); ?>assets/images/placeholders/placeholder.jpg" class="img-fluid card-img-top" alt="">
-									</a>	
+									<div class="card-img-actions m-1">
+										<img class="card-img img-fluid" src="<?php echo base_url(); ?>assets/images/placeholders/placeholder.jpg" alt="">
+										<div class="card-img-actions-overlay card-img">
+											<a href="<?php echo base_url(); ?>assets/images/placeholders/placeholder.jpg" class="btn btn-outline bg-white text-white border-white border-2 btn-icon rounded-round" data-popup="lightbox" rel="group">
+												<i class="icon-plus3"></i>
+											</a>
+										</div>
+									</div>	
 								</div>
 								<div class="col-md-3">
-									<a href="#">
-										<img src="<?php echo base_url(); ?>assets/images/placeholders/placeholder.jpg" class="img-fluid card-img-top" alt="">
-									</a>	
+									<div class="card-img-actions m-1">
+										<img class="card-img img-fluid" src="<?php echo base_url(); ?>assets/images/placeholders/placeholder.jpg" alt="">
+										<div class="card-img-actions-overlay card-img">
+											<a href="<?php echo base_url(); ?>assets/images/placeholders/placeholder.jpg" class="btn btn-outline bg-white text-white border-white border-2 btn-icon rounded-round" data-popup="lightbox" rel="group">
+												<i class="icon-plus3"></i>
+											</a>
+										</div>
+									</div>	
 								</div>
 								<div class="col-md-3">
-									<a href="#">
-										<img src="<?php echo base_url(); ?>assets/images/placeholders/placeholder.jpg" class="img-fluid card-img-top" alt="">
-									</a>	
+									<div class="card-img-actions m-1">
+										<img class="card-img img-fluid" src="<?php echo base_url(); ?>assets/images/placeholders/placeholder.jpg" alt="">
+										<div class="card-img-actions-overlay card-img">
+											<a href="<?php echo base_url(); ?>assets/images/placeholders/placeholder.jpg" class="btn btn-outline bg-white text-white border-white border-2 btn-icon rounded-round" data-popup="lightbox" rel="group">
+												<i class="icon-plus3"></i>
+											</a>
+										</div>
+									</div>	
 								</div>
 								<div class="col-md-3">
-									<a href="#">
-										<img src="<?php echo base_url(); ?>assets/images/placeholders/placeholder.jpg" class="img-fluid card-img-top" alt="">
-									</a>	
+									<div class="card-img-actions m-1">
+										<img class="card-img img-fluid" src="<?php echo base_url(); ?>assets/images/placeholders/placeholder.jpg" alt="">
+										<div class="card-img-actions-overlay card-img">
+											<a href="<?php echo base_url(); ?>assets/images/placeholders/placeholder.jpg" class="btn btn-outline bg-white text-white border-white border-2 btn-icon rounded-round" data-popup="lightbox" rel="group">
+												<i class="icon-plus3"></i>
+											</a>
+										</div>
+									</div>	
 								</div>
 							</div>
 						</div>

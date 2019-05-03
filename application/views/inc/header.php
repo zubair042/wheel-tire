@@ -38,10 +38,7 @@
 	<script src="<?php echo base_url(); ?>assets/js/plugins/forms/wizards/steps.min.js"></script>
 	<script src="<?php echo base_url(); ?>assets/js/plugins/forms/styling/uniform.min.js"></script>
 	<script src="<?php echo base_url(); ?>assets/js/plugins/forms/inputs/inputmask.js"></script>
-	<!-- <script src="<?php echo base_url(); ?>assets/inputTelPlusMasking/inputmask/jquery.inputmask.bundle.js"></script>  -->
-	<!-- <script src="<?php echo base_url(); ?>assets/inputTelPlusMasking/inputmask/inputmask/phone-codes/phone.js"></script> 
-	<script src="<?php echo base_url(); ?>assets/inputTelPlusMasking/inputmask/inputmask/phone-codes/phone-be.js"></script> 
-	<script src="<?php echo base_url(); ?>assets/inputTelPlusMasking/inputmask/inputmask/phone-codes/phone-ru.js"></script> -->
+	
 	<script src="<?php echo base_url(); ?>assets/js/plugins/forms/validation/validate.min.js"></script>
 	<script src="<?php echo base_url(); ?>assets/js/plugins/extensions/cookie.js"></script>
 
@@ -83,15 +80,4 @@ $AppMaster = new AppMaster();
 
 	<!-- Side Bar Menu -->
 	<?php include(APPPATH."views/inc/side_bar.php"); ?>
-		<!-- <?php //if($this->session->flashdata("success")): ?>
-        <div class="alert alert-success border-0 alert-dismissible" align="center">
-        	<button type="button" class="close" data-dismiss="alert"><span>&times;</span></button>
-        <?php //echo $this->session->flashdata("success"); ?>
-        </div>
-  		<?php //endif; ?>
-        <?php //if($this->session->flashdata("error")): ?>
-        <div class="alert alert-danger border-0 alert-dismissible">
-  			<button type="button" class="close" data-dismiss="alert"><span>&times;</span></button>
- 		<?php //echo $this->session->flashdata("error"); ?>
- 		</div>
-  		<?php// endif; ?> -->
+		
