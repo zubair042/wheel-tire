@@ -10,5 +10,8 @@ class Reports extends CI_Controller {
 	public function add_report(){
 		$this->load->view('reports/add_report');
 	}
+	public function view_report(){
+		$this->load->view('reports/view_report');
+	}
 
 }

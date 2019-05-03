@@ -37,7 +37,7 @@
 					    </thead>
 					    <tbody>
 					      <tr id="table_row">
-					        <td><a href="javascript:;" class="btn btn-success btn-sm legitRipple" data-toggle="modal" data-target="#modal_tyre" style="margin-right: 10px; background-color: #4ec88a">View</a><span>2019 Mar 30 (22:31:16)</span></td>
+					        <td><a href="<?php echo base_url('reports/view_report'); ?>" class="btn btn-success btn-sm legitRipple" style="margin-right: 10px; background-color: #4ec88a">View</a><span>2019 Mar 30 (22:31:16)</span></td>
 					        <td style="text-align: center;"><span>53467</span></td>
 					        <td style="text-align: center;"><span>Carson, CA</span></td>
 					        <td style="text-align: center;">John Smith</td>
