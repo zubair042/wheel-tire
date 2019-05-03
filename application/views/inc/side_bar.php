@@ -91,7 +91,7 @@
 
 							<ul class="nav nav-group-sub" data-submenu-title="Layouts">
 								<li class="nav-item"><a href="<?php echo site_url("reports"); ?>" class="nav-link">View List Reports</a></li>
-								<li class="nav-item"><a href="<?php echo site_url(""); ?>" class="nav-link">Add new Report</a></li>
+								<li class="nav-item"><a href="<?php echo site_url("reports/add_report"); ?>" class="nav-link">Add new Report</a></li>
 							</ul>
 						</li>
 						<li class="nav-item nav-item-submenu">
