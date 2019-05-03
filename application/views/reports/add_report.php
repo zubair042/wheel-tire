@@ -19,14 +19,52 @@
 							</label>
 						</div>
 					</div>
-					<div class="row" id="trailer_html">
+					<div class="row" id="trailer_html" style="display: none;">
 						<div class="col-md-12">
-							
+							<div class="row">
+								<div class="col-md-12">
+									
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="row" id="power_unit_html">
 						<div class="col-md-12">
-							
+							<table align="center">
+							  <!-- <tr>
+							    <th>SELECT WHEEL POSITIONS YOU WORKED ON</th>
+							  </tr>
+							  <tr>
+							    <td><input type="radio" id="power_unit_radio" class="form-check-input-styled-danger" name="radio-inline-right" data-fouc=""></td>
+							    <td>Maria Anders</td>
+							    <td>Germany</td>
+							  </tr>
+							  <tr>
+							    <td>Centro comercial Moctezuma</td>
+							    <td>Francisco Chang</td>
+							    <td>Mexico</td>
+							  </tr>
+							  <tr>
+							    <td>Ernst Handel</td>
+							    <td>Roland Mendel</td>
+							    <td>Austria</td>
+							  </tr>
+							  <tr>
+							    <td>Island Trading</td>
+							    <td>Helen Bennett</td>
+							    <td>UK</td>
+							  </tr>
+							  <tr>
+							    <td>Laughing Bacchus Winecellars</td>
+							    <td>Yoshi Tannamuri</td>
+							    <td>Canada</td>
+							  </tr>
+							  <tr>
+							    <td>Magazzini Alimentari Riuniti</td>
+							    <td>Giovanni Rovelli</td>
+							    <td>Italy</td>
+							  </tr> -->
+							</table>
 						</div>
 					</div>
 				    <div class="row" style="">
