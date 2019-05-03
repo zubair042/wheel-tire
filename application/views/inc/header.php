@@ -55,8 +55,6 @@
     <script src="<?php echo base_url(); ?>assets/js/app-script.js"></script>
     <script src="<?php echo base_url(); ?>assets/js/plugins/loaders/progressbar.min.js"></script>
 <script src="<?php echo base_url(); ?>assets/js/plugins/moment/moment.min.js"></script>
-    
-    
 
 </head>
 <style type="text/css">

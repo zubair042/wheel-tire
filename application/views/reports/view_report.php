@@ -1,7 +1,7 @@
 
-
 <?php include(APPPATH."views/inc/header.php"); ?>
 <script src="<?php echo base_url(); ?>assets/js/plugins/media/fancybox.min.js"></script>
+
 <div class="content">
 	<div class="row">
 		<div class="col-md-12">
@@ -23,9 +23,9 @@
 									<h6 class="card-title text-secondary">Comments:</h6>
 								</div>
 								<div class="card-body">
-									<apan class="text-primary">John Smith : </apan><span>Torque wrench was missing</span>
+									<apan class="text-primary font-weight-semibold">John Smith : </apan><span>Torque wrench was missing</span>
 									<br>
-									<span class="text-success">Bob Jones : </span><span>John say the torque wrench was not in the shop</span> 
+									<span class="text-success font-weight-semibold">Bob Jones : </span><span>John say the torque wrench was not in the shop</span> 
 								</div>
 							</div>
 						</div>
@@ -142,3 +142,8 @@
 </div>
 
 <?php include(APPPATH."views/inc/footer.php"); ?>
+<script type="text/javascript">
+	$('[data-popup="lightbox"]').fancybox({
+            padding: 3
+        });
+</script>
