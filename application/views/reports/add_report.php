@@ -1,4 +1,5 @@
 <?php include(APPPATH."views/inc/header.php"); ?>
+<script src="<?php echo base_url(); ?>assets/js/plugins/forms/styling/uniform.min.js"></script>
 
 <div class="content">
 	<div class="row">
@@ -19,14 +20,19 @@
 							</label>
 						</div>
 					</div>
-					<div class="row" id="trailer_html" style="display:none;margin-top: 30px;padding: 12px;">
+					<div class="row" style="margin-top: 40px;">
+						<div class="col-md-6 offset-md-3" style="text-align: center;">
+							<h5>SELECT WHEEL POSITION YOU WORKED ON</h5>
+						</div>
+					</div>
+					<div class="row" id="trailer_html" style="display:none;margin-top: 10px;padding: 12px;">
 						<div class="col-md-6 offset-md-3">
 							<li class="media">
 								<div class="mr-3" style="margin-top: 60px;">
 									<div class="form-check form-check-inline form-check-right">
 										<label class="form-check-label">
 											<span class="font-weight-bold text-primary">LS</span>
-											<input type="radio" id="power_unit_radio" class="form-check-input-styled-danger" checked="" name="radio-inline" data-fouc="">
+											<input type="radio" id="power_unit_radio" class="form-check-input-styled-danger" checked="" name="radio-inline1" data-fouc="">
 										</label>
 									</div>
 								</div>
@@ -38,7 +44,7 @@
 								<div class="align-self-center ml-3">
 									<div class="form-check form-check-inline form-check-right">
 										<label class="form-check-label">
-											<input type="radio" class="form-check-input-styled-danger" name="radio-inline" data-fouc="">&nbsp;&nbsp; <span class="font-weight-bold text-primary">RS</span>
+											<input type="radio" class="form-check-input-styled-danger" name="radio-inline1" data-fouc="">&nbsp;&nbsp; <span class="font-weight-bold text-primary">RS</span>
 										</label>
 									</div>
 								</div>
@@ -90,7 +96,7 @@
 								
 						</div>
 					</div>
-					<div class="row" id="power_unit_html" style="margin-top: 30px;padding: 12px;">
+					<div class="row" id="power_unit_html" style="margin-top: 10px;padding: 12px;">
 							
 						<div class="col-md-6 offset-md-3">
 							<li class="media">
@@ -142,7 +148,7 @@
 					</div>
 				    <div class="row">
 				    	<div class="col-md-12" style="text-align: center; margin-top: 40px; ">
-				        	<h6>HOW MANY FOOT POUNDS DID YOU TIGHTED LUNG NUTS TO?</h6>
+				        	<h5>HOW MANY FOOT POUNDS DID YOU TIGHTED LUNG NUTS TO?</h5>
 				    	</div>
 				    </div>
 				    <div class="row" style="padding: 15px">
@@ -196,12 +202,16 @@
 	</div>
 </div>
 
-<script src="<?php echo base_url(); ?>assets/js/demo_pages/form_checkboxes_radios.js"></script>
+
 
 <?php include(APPPATH."views/inc/footer.php"); ?>
 
 
 <script type="text/javascript">
+	$('.form-check-input-styled-danger').uniform({
+            wrapperClass: 'border-danger-600 text-danger-800'
+        });
+
 	$('#trailer_radio').click(function(){
         if($("#trailer_html").css("display","block")){
             $("#trailer_html").css("display","none");
