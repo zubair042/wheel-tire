@@ -56,36 +56,41 @@ body {
         
         <div class="col-md-4">
           <form id="add_new_user" method="POST" enctype="multipart/form-data">
-          <div class="card">
-            <div class="card-header header-elements-inline" style="background: #708bea;height: 90px;">
+            <div class="card">
+              <div class="card-header header-elements-inline" style="background: #708bea;height: 90px;">
+              </div>
+
+              <div class="card-body" style="margin-top: 35px;">
+                <div class="text-center" style="font-size: 25px;margin-bottom: 25px;">
+                  <span class="font-weight-semibold" style="color: #797373;">Sign Up</span>
+                </div>
+                <div id="alert_msg" style="display: none;">
+                  <div class="alert alert-warning alert-dismissible">
+                  <button type="button" class="close" data-dismiss="alert"><span>×</span></button>
+                  <span class="font-weight-semibold">Warning!</span> Email already exists.</div>
+                </div>
+                <div class="form-group">
+                  <label for="name">Company ID</label>
+                  <input type="text" class="form-control" name="company_id" placeholder="Enter your company ID">
+                </div>
+                <div class="form-group">
+                  <label for="name">Full Name</label>
+                  <input type="text" class="form-control" name="full_name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                  <label for="name">Email Address</label>
+                  <input type="text" class="form-control" name="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                  <label for="password">Password</label>
+                  <input type="password" class="form-control" name="password" placeholder="Enter password ">
+                </div>
+                <div class="text-center" style="margin-top: 40px;">
+                  <input type="submit" style="background: #6178ca;margin-bottom: 10px;" class="btn btn-primary" value="Sign Up">
+                </div> 
+              </div>
             </div>
-            <div class="card-body" style="margin-top: 35px;">
-              <div class="text-center" style="font-size: 25px;margin-bottom: 25px;">
-                <span class="font-weight-semibold" style="color: #797373;">Sign Up</span>
-              </div>
-            
-              <div class="form-group">
-                <label for="name">Company ID</label>
-                <input type="text" class="form-control" name="company_id" placeholder="Enter your company ID">
-              </div>
-              <div class="form-group">
-                <label for="name">Full Name</label>
-                <input type="text" class="form-control" name="full_name" placeholder="Enter your name">
-              </div>
-              <div class="form-group">
-                <label for="name">Email Address</label>
-                <input type="text" class="form-control" name="email" placeholder="Enter your email">
-              </div>
-              <div class="form-group">
-                <label for="password">Password</label>
-                <input type="password" class="form-control" name="password" placeholder="Enter password ">
-              </div>
-              <div class="text-center" style="margin-top: 40px;">
-                <input type="submit" style="background: #6178ca;margin-bottom: 10px;" class="btn btn-primary" value="Sign Up">
-              </div> 
-            </div>
-          </div>
-        </form>
+          </form>
         </div>
 
       </div>   
@@ -98,16 +103,18 @@ body {
   $("#add_new_user").on("submit", function(e){
     e.preventDefault();
     var formData = new FormData($(this)[0]);
+    //formData.append('val',"asdasdasda");
     $.ajax({
       url: '<?php echo site_url("register/add_new_user"); ?>',
       type: 'POST',
-      data: 'formData',
+      data: formData,
       cache: false,
       contentType: false,
       processData: false,
-      success:function(e){
-        console.log(e);
-        return false;
+      success: function(data){
+        if(data == "email_exists"){
+          $("#alert_msg").removeAttr("style");
+        }
       }
     });
   });
