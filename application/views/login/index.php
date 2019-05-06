@@ -61,7 +61,12 @@ body {
                 <span class="font-weight-semibold" style="margin-right: 25px;color: #96a2ce;">Log In</span>
                 <a href="<?php echo base_url('register'); ?>"><span class="font-weight-semibold" style="margin-left: 25px;color: #797373;">Sign Up</span></a>
               </div>
-              <form>
+              <form action="<?php echo site_url('login/user_login'); ?>" method="POST">
+                <?php if ($this->session->flashdata("error")) { ?>
+                <div class="alert alert-danger border-0 alert-dismissible">
+                <button type="button" class="close" data-dismiss="alert"><span>&times;</span></button>
+                <?php echo $this->session->flashdata("error"); ?> </div>
+                <?php } ?>
               <div class="form-group">
                 <label for="name">Email Address</label>
                 <input type="text" class="form-control" name="email" placeholder="Enter your email">
@@ -78,63 +83,6 @@ body {
           </div>
         </div>
       </div>
-    
-    <!-- <div class="content d-flex justify-content-center align-items-center"> 
-      
-      
-      <form class="login-form"  method="POST">
-        <div class="card">
-              <div class="card-header header-elements-inline" style="background: #708bea;height: 75px;">
-              </div>
-
-              <div class="card-body" style="margin-top: 40px;">
-                <ul class="nav nav-pills nav-justified" >
-                  <li class="nav-item"><a href="#justified-rounded-pill1" style=" font-size: 20px;" class="nav-link rounded-round active" data-toggle="tab">Sign In</a></li>
-                  <li class="nav-item"><a href="#justified-rounded-pill2" style="font-size: 20px;" class="nav-link rounded-round" data-toggle="tab">Sign Up</a></li>
-                </ul>
-
-                <div class="tab-content" style="margin-top: 35px;">
-                  <div class="tab-pane fade show active" id="justified-rounded-pill1">
-                    <div class="form-group">
-                      <label for="name">Email Address</label>
-                      <input type="text" class="form-control" name="email" placeholder="Enter your email">
-                    </div>
-                    <div class="form-group">
-                      <label for="password">Password</label>
-                      <input type="text" class="form-control" name="password" placeholder="Enter password ">
-                    </div>
-                    <div class="text-center">
-                      <input type="submit" style="background: #6178ca;" class="btn btn-primary" value="Log in">
-                    </div> 
-                  </div>
-
-                  <div class="tab-pane fade" id="justified-rounded-pill2">
-                    <div class="form-group">
-                      <label for="company_id">Company ID</label>
-                      <input type="text" class="form-control" name="company_id" placeholder="Enter your company id">
-                    </div>
-                    <div class="form-group">
-                      <label for="full_name">Full Name</label>
-                      <input type="text" class="form-control" name="full_name" placeholder="Enter your full name">
-                    </div>
-                    <div class="form-group">
-                      <label for="email">Email Address</label>
-                      <input type="text" class="form-control" name="email" placeholder="Enter your email">
-                    </div>
-                    <div class="form-group">
-                      <label for="password">Password</label>
-                      <input type="text" class="form-control" name="password" placeholder="Enter your password">
-                    </div>
-                    <div class="text-center">
-                      <input type="submit" style="background: #6178ca;" class="btn btn-primary" value="Sign Up">
-                    </div>
-                    
-                  </div>
-                </div>
-              </div>
-            </div>
-      </form> 
-  </div> -->
   </div> 
 </div>
 
