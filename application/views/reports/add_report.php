@@ -26,7 +26,7 @@
 						</div>
 					</div>
 					<div class="row" id="trailer_html" style="display:none;margin-top: 10px;padding: 12px;">
-						<div class="col-md-6 offset-md-3">
+						<div class="col-md-6 offset-md-3" style="background-color: #fafafa;">
 							<li class="media">
 								<div class="mr-3" style="margin-top: 47px;">
 									<div class="form-check form-check-inline form-check-right">
@@ -98,7 +98,7 @@
 					</div>
 					<div class="row" id="power_unit_html" style="margin-top: 10px;padding: 12px;">
 							
-						<div class="col-md-6 offset-md-3">
+						<div class="col-md-6 offset-md-3" style="background-color: #fafafa;">
 							<li class="media">
 								<div class="mr-3" style="margin-top: 47px;">
 									<div class="form-check form-check-inline form-check-right">
