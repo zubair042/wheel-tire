@@ -8,9 +8,12 @@ class Dashboard extends CI_Controller {
 		if (!$this->session->userdata("isUserLoggedIn")) {
 			redirect("login");
 		}
+		$user_session = $this->session->userdata('isUserLoggedIn');
+		$this->user_id = $user_session['user_id'];
+
 	}
 	public function index()
-	{
+	{	
 		$this->load->view('dashboard/index');
 	}
 }

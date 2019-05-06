@@ -20,6 +20,8 @@
 <script src="<?php echo base_url(); ?>/assets/js/main/jquery.min.js"></script>
 <script src="<?php echo base_url(); ?>/assets/js/main/bootstrap.bundle.min.js"></script>
 <script src="<?php echo base_url(); ?>/assets/js/plugins/loaders/blockui.min.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/plugins/ui/ripple.min.js"></script>
+
 <!-- /core JS files -->
 
 <!-- Theme JS files -->
@@ -65,7 +67,7 @@ body {
                   <span class="font-weight-semibold" style="color: #797373;">Sign Up</span>
                 </div>
                 <div id="alert_msg" style="display: none;">
-                  <div class="alert alert-warning alert-dismissible">
+                  <div class="alert alert-danger border-0 alert-dismissible">
                   <button type="button" class="close" data-dismiss="alert"><span>×</span></button>
                   <span class="font-weight-semibold">Warning!</span> Email already exists.</div>
                 </div>
@@ -99,11 +101,14 @@ body {
 
 </body>
 </html>
+<script src="<?php echo base_url(); ?>assets/js/plugins/notifications/sweet_alert.min.js"></script>
+  <script src="<?php echo base_url(); ?>assets/js/plugins/forms/selects/bootstrap_multiselect.js"></script>
+
+
 <script type="text/javascript">
   $("#add_new_user").on("submit", function(e){
     e.preventDefault();
     var formData = new FormData($(this)[0]);
-    //formData.append('val',"asdasdasda");
     $.ajax({
       url: '<?php echo site_url("register/add_new_user"); ?>',
       type: 'POST',
@@ -114,6 +119,16 @@ body {
       success: function(data){
         if(data == "email_exists"){
           $("#alert_msg").removeAttr("style");
+        }
+        if (data == "success") {
+          swal({
+            title: "successfully SignUp !",
+            type: 'success',
+            html: 'Please LogIn to move forward',
+            allowOutsideClick: false,
+          }).then(function() {
+            window.location.replace("<?php echo site_url('login'); ?>");
+          });
         }
       }
     });

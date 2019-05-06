@@ -10,21 +10,8 @@ class Register extends CI_Controller {
 	public function add_new_user(){
 		$post = $this->input->post();
 		//$data = array();
-		$res = 'success';
-		$this->load->model('common_model');	
-		$checkUserExists = $this->common_model->listingRow('email',$post['email'],"user");
-		if(count($checkUserExists)>0){
-			$res = 'email_exists';
-			echo $res;
-			return false;
-		}
-		$data['company_id'] = $post['company_id'];
-		$data['full_name'] = $post['full_name'];
-		$data['email'] = $post['email'];
-		$data['password'] = md5($post['password']);
-		$data['created_at'] = date('Y-m-d H:i:s');
-		$result = $this->db->insert("user",$data);
-		echo $res;
+		$this->load->model('user_model');
+		$this->user_model->add_new_user($post);
 	}
 }
 
