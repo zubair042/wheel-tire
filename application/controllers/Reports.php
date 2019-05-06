@@ -21,6 +21,7 @@ class Reports extends CI_Controller {
 
 	public function add_new_report(){
 		$post = $this->input->post();
+		print_r($post);exit();
 		$data['vehicle_type'] = $post['vehicle_type'];
 		$data['weight'] = $post['lbs_weight'];
 		$data['unit_number'] = $post['unit_number'];
@@ -33,7 +34,7 @@ class Reports extends CI_Controller {
 		$data = $this->common_model->insertGetIDQuery("reports", $data);
 		//$this->load->view('reports/add_report');
 		// echo '<pre>';
-		 print_r($post);
+		// print_r($post);
 		//$data['weight']
 	
 	}

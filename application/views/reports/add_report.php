@@ -30,7 +30,7 @@
 									<div class="form-check form-check-inline form-check-right">
 										<label class="form-check-label">
 											<span class="font-weight-bold text-primary" style="font-size: 15px;">LS</span>
-											<input type="radio" id="power_unit_radio" class="form-check-input-styled-danger" checked="" name="radio-inline1" data-fouc="">
+											<input type="radio" id="power_unit_radio" class="form-check-input-styled-danger" checked="" name="radio-inline1" value="LS" data-fouc="">
 										</label>
 									</div>
 								</div>
@@ -42,7 +42,7 @@
 								<div class="align-self-center ml-3">
 									<div class="form-check form-check-inline form-check-right">
 										<label class="form-check-label">
-											<input type="radio" class="form-check-input-styled-danger" name="radio-inline1" data-fouc="">&nbsp;&nbsp; <span class="font-weight-bold text-primary" style="font-size: 15px;">RS</span>
+											<input type="radio" class="form-check-input-styled-danger" name="radio-inline1" value="RS" data-fouc="">&nbsp;&nbsp; <span class="font-weight-bold text-primary" style="font-size: 15px;">RS</span>
 										</label>
 									</div>
 								</div>
@@ -52,7 +52,7 @@
 									<div class="form-check form-check-inline form-check-right">
 										<label class="form-check-label">
 											<span class="font-weight-bold text-primary" style="font-size: 15px;">LF</span>
-											<input type="radio" id="power_unit_radio" class="form-check-input-styled-danger" checked="" name="radio-inline" data-fouc="">
+											<input type="radio" id="power_unit_radio" class="form-check-input-styled-danger" checked="" name="radio-inline" value="LF" data-fouc="">
 										</label>
 									</div>
 								</div>
@@ -64,7 +64,7 @@
 								<div class="align-self-center ml-3">
 									<div class="form-check form-check-inline form-check-right">
 										<label class="form-check-label">
-											<input type="radio" class="form-check-input-styled-danger" name="radio-inline" data-fouc="">&nbsp;&nbsp; <span class="font-weight-bold text-primary" style="font-size: 15px;">RF</span>
+											<input type="radio" class="form-check-input-styled-danger" name="radio-inline" value="RF" data-fouc="">&nbsp;&nbsp; <span class="font-weight-bold text-primary" style="font-size: 15px;">RF</span>
 										</label>
 									</div>
 								</div>
@@ -74,7 +74,7 @@
 									<div class="form-check form-check-inline form-check-right">
 										<label class="form-check-label">
 											<span class="font-weight-bold text-primary" style="font-size: 15px;">LR</span>
-											<input type="radio" id="power_unit_radio" class="form-check-input-styled-danger" name="radio-inline-r" data-fouc="" checked="">
+											<input type="radio" id="power_unit_radio" class="form-check-input-styled-danger" name="radio-inline-r" value="LR" data-fouc="" checked="">
 										</label>
 									</div>
 								</div>
@@ -86,7 +86,7 @@
 								<div class="align-self-center ml-3">
 									<div class="form-check form-check-inline form-check-right">
 										<label class="form-check-label">
-											<input type="radio" class="form-check-input-styled-danger" name="radio-inline-r" data-fouc="">&nbsp;&nbsp; <span class="font-weight-bold text-primary" style="font-size: 15px;">RR</span>
+											<input type="radio" class="form-check-input-styled-danger" name="radio-inline-r" value="RR" data-fouc="">&nbsp;&nbsp; <span class="font-weight-bold text-primary" style="font-size: 15px;">RR</span>
 										</label>
 									</div>
 								</div>
@@ -106,7 +106,7 @@
 									<div class="form-check form-check-inline form-check-right">
 										<label class="form-check-label">
 											<span class="font-weight-bold text-primary" style="font-size: 15px;">LF</span>
-											<input type="radio" id="power_unit_radio" class="form-check-input-styled-danger" checked="" name="radio-inline" data-fouc="">
+											<input type="radio" id="power_unit_radio" class="form-check-input-styled-danger" checked="" name="radio-inline" value="LF" data-fouc="">
 										</label>
 									</div>
 								</div>
@@ -118,7 +118,7 @@
 								<div class="align-self-center ml-3">
 									<div class="form-check form-check-inline form-check-right">
 										<label class="form-check-label">
-											<input type="radio" class="form-check-input-styled-danger" name="radio-inline" data-fouc="">&nbsp;&nbsp; <span class="font-weight-bold text-primary" style="font-size: 15px;">RF</span>
+											<input type="radio" class="form-check-input-styled-danger" name="radio-inline" value="RF" data-fouc="">&nbsp;&nbsp; <span class="font-weight-bold text-primary" style="font-size: 15px;">RF</span>
 										</label>
 									</div>
 								</div>
@@ -128,7 +128,7 @@
 									<div class="form-check form-check-inline form-check-right">
 										<label class="form-check-label">
 											<span class="font-weight-bold text-primary" style="font-size: 15px;">LR</span>
-											<input type="radio" id="power_unit_radio" class="form-check-input-styled-danger" name="radio-inline-r" data-fouc="" checked="">
+											<input type="radio" id="power_unit_radio" class="form-check-input-styled-danger" name="radio-inline-r" value="LR" data-fouc="" checked="">
 										</label>
 									</div>
 								</div>
@@ -140,7 +140,7 @@
 								<div class="align-self-center ml-3">
 									<div class="form-check form-check-inline form-check-right">
 										<label class="form-check-label">
-											<input type="radio" class="form-check-input-styled-danger" name="radio-inline-r" data-fouc="">&nbsp;&nbsp; <span class="font-weight-bold text-primary" style="font-size: 15px;">RR</span>
+											<input type="radio" class="form-check-input-styled-danger" name="radio-inline-r" value="RR" data-fouc="">&nbsp;&nbsp; <span class="font-weight-bold text-primary" style="font-size: 15px;">RR</span>
 										</label>
 									</div>
 								</div>
