@@ -28,7 +28,7 @@
 					<div class="row" id="trailer_html" style="display:none;margin-top: 10px;padding: 12px;">
 						<div class="col-md-6 offset-md-3">
 							<li class="media">
-								<div class="mr-3" style="margin-top: 60px;">
+								<div class="mr-3" style="margin-top: 47px;">
 									<div class="form-check form-check-inline form-check-right">
 										<label class="form-check-label">
 											<span class="font-weight-bold text-primary" style="font-size: 15px;">LS</span>
@@ -38,7 +38,7 @@
 								</div>
 
 								<div class="media-body" style="text-align: center;">
-								 	<img src="<?php echo base_url(); ?>assets/images/placeholders/fr1.png" class="" width="80%" height="150" alt="">
+								 	<img src="<?php echo base_url(); ?>assets/images/placeholders/fr1.png" class="" width="80%" height="120" alt="">
 								</div>
 
 								<div class="align-self-center ml-3">
@@ -50,7 +50,7 @@
 								</div>
 							</li>
 							<li class="media">
-								<div class="mr-3" style="margin-top: 60px;">
+								<div class="mr-3" style="margin-top: 47px;">
 									<div class="form-check form-check-inline form-check-right">
 										<label class="form-check-label">
 											<span class="font-weight-bold text-primary" style="font-size: 15px;">LF</span>
@@ -60,7 +60,7 @@
 								</div>
 
 								<div class="media-body" style="text-align: center;">
-								 	<img src="http://localhost/wheel-tire/assets/images/placeholders/fr.png" class="" width="100%" height="150" alt="">
+								 	<img src="http://localhost/wheel-tire/assets/images/placeholders/fr.png" class="" width="100%" height="120" alt="">
 								</div>
 
 								<div class="align-self-center ml-3">
@@ -72,7 +72,7 @@
 								</div>
 							</li>
 							<li class="media">
-								<div class="mr-3" style="margin-top: 60px;">
+								<div class="mr-3" style="margin-top: 47px;">
 									<div class="form-check form-check-inline form-check-right">
 										<label class="form-check-label">
 											<span class="font-weight-bold text-primary" style="font-size: 15px;">LR</span>
@@ -82,7 +82,7 @@
 								</div>
 
 								<div class="media-body" style="text-align: center;">
-									<img src="http://localhost/wheel-tire/assets/images/placeholders/fr.png" class="" width="100%" height="150" alt="">
+									<img src="http://localhost/wheel-tire/assets/images/placeholders/fr.png" class="" width="100%" height="120" alt="">
 								</div>
 
 								<div class="align-self-center ml-3">
@@ -100,7 +100,7 @@
 							
 						<div class="col-md-6 offset-md-3">
 							<li class="media">
-								<div class="mr-3" style="margin-top: 60px;">
+								<div class="mr-3" style="margin-top: 47px;">
 									<div class="form-check form-check-inline form-check-right">
 										<label class="form-check-label">
 											<span class="font-weight-bold text-primary" style="font-size: 15px;">LF</span>
@@ -110,7 +110,7 @@
 								</div>
 
 								<div class="media-body" style="text-align: center;">
-								 	<img src="http://localhost/wheel-tire/assets/images/placeholders/fr.png" class="" width="100%" height="150" alt="">
+								 	<img src="http://localhost/wheel-tire/assets/images/placeholders/fr.png" class="" width="100%" height="120" alt="">
 								</div>
 
 								<div class="align-self-center ml-3">
@@ -122,7 +122,7 @@
 								</div>
 							</li>
 							<li class="media">
-								<div class="mr-3" style="margin-top: 60px;">
+								<div class="mr-3" style="margin-top: 47px;">
 									<div class="form-check form-check-inline form-check-right">
 										<label class="form-check-label">
 											<span class="font-weight-bold text-primary" style="font-size: 15px;">LR</span>
@@ -132,7 +132,7 @@
 								</div>
 
 								<div class="media-body" style="text-align: center;">
-									<img src="http://localhost/wheel-tire/assets/images/placeholders/fr.png" class="" width="100%" height="150" alt="">
+									<img src="http://localhost/wheel-tire/assets/images/placeholders/fr.png" class="" width="100%" height="120" alt="">
 								</div>
 
 								<div class="align-self-center ml-3">
