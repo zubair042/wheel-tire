@@ -212,6 +212,22 @@
 
 
 <script type="text/javascript">
+
+	$("#trailer_powerunit").on("submit", function(e){
+		var formData = new FormData($(this));
+		$.ajax({
+			url: '<?php echo("reports")?>',
+			type: 'POST',
+			data: formData,
+			cache: false,
+			contentType: false,
+			processData: false,
+			success: function(e){
+				console.log(e);
+			} 
+		});
+	});
+
 	$('.form-check-input-styled-danger').uniform({
             wrapperClass: 'border-danger-600 text-danger-800'
         });
@@ -228,4 +244,5 @@
             $("#power_unit_html").css("display","none");
         }
     });
+
 </script>
