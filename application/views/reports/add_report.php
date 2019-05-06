@@ -20,13 +20,11 @@
 							</label>
 						</div>
 					</div>
-					<div class="row" style="margin-top: 40px;">
-						<div class="col-md-6 offset-md-3" style="text-align: center;">
-							<h5>SELECT WHEEL POSITION YOU WORKED ON</h5>
-						</div>
-					</div>
 					<div class="row" id="trailer_html" style="display:none;margin-top: 10px;padding: 12px;">
 						<div class="col-md-6 offset-md-3" style="background-color: #fafafa;">
+							<div class="" style="text-align: center; padding-top: 30px;">
+								<h5>SELECT WHEEL POSITION YOU WORKED ON</h5>
+							</div>
 							<li class="media">
 								<div class="mr-3" style="margin-top: 47px;">
 									<div class="form-check form-check-inline form-check-right">
@@ -93,12 +91,16 @@
 									</div>
 								</div>
 							</li>
-								
+							<div class="" style="text-align: center; padding-top: 30px; padding-bottom: 10px;">
+								<h5>If you pull the hub you MUST take photo of completed wheel-end!</h5>
+							</div>	
 						</div>
 					</div>
 					<div class="row" id="power_unit_html" style="margin-top: 10px;padding: 12px;">
-							
 						<div class="col-md-6 offset-md-3" style="background-color: #fafafa;">
+							<div class="" style="text-align: center; padding-top: 30px;">
+								<h5>SELECT WHEEL POSITION YOU WORKED ON</h5>
+							</div>
 							<li class="media">
 								<div class="mr-3" style="margin-top: 47px;">
 									<div class="form-check form-check-inline form-check-right">
@@ -143,7 +145,9 @@
 									</div>
 								</div>
 							</li>
-								
+							<div class="" style="text-align: center; padding-top: 30px; padding-bottom: 10px;">
+								<h5>If you pull the hub you MUST take photo of completed wheel-end!</h5>
+							</div>
 						</div>
 					</div>
 				    <div class="row">
