@@ -161,7 +161,7 @@
 					    <div class="row"">
 					    	<div class="col-md-2 offset-md-5">
 					    		<div class="input-group">
-									<input type="text" name="" id="" class="form-control">
+									<input type="text" name="lbs_weight" id="" class="form-control">
 									<span class="input-group-append">
 										<span class="input-group-text" style="font-family:arial black; color: gray; font-size: 20px;">lbs.</span>
 									</span>
@@ -170,17 +170,17 @@
 					    </div>
 					    <div class="row" style="margin-top: 10px;">
 					    	<div class="col-md-2 offset-md-5">
-					    		<input type="text" name="" id="" class="form-control" placeholder="Unit Number">
+					    		<input type="text" name="unit_number" id="" class="form-control" placeholder="Unit Number">
 					    	</div>
 					    </div>
 					    <div class="row" style="margin-top: 10px;">
 					    	<div class="col-md-2 offset-md-5">
-					    		<input type="text" name="" id="" class="form-control" placeholder="Your Name">
+					    		<input type="text" name="your_name" id="" class="form-control" placeholder="Your Name">
 					    	</div>
 					    </div>
 					    <div class="row" style="margin-top: 10px;">
 					    	<div class="col-md-2 offset-md-5">
-					    		<select class="custom-select">
+					    		<select class="custom-select" name="position_at_company">
 					                <option value="Manager"><span>Manager</span></option>
 					                <option value="Worker">Worker</option>
 					                <option value="Salesman">Salesman</option>
@@ -189,7 +189,7 @@
 					    </div>
 					    <div class="row" style="margin-top: 10px;">
 					    	<div class="col-md-2 offset-md-5">
-					    		<input type="text" name="" id="" class="form-control" placeholder="Comments">
+					    		<input type="text" name="comments" id="" class="form-control" placeholder="Comments">
 					    	</div>
 					    </div>
 					    <div class="row" style="text-align: center;margin:30px 0;">
