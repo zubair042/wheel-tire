@@ -9,13 +9,13 @@
 					<div class="form-group mb-3 mb-md-2" style="text-align: center; margin-top: 40px;">
 						<div class="form-check form-check-inline form-check-right">
 							<label class="form-check-label">
-								TRAILER
+								<span class="font-weight-semibold">TRAILER</span>
 								<div class=""><span class=""><input type="radio" id="trailer_radio" class="form-check-input-styled-danger" name="radio-inline-right" checked="" data-fouc=""></span></div>
 							</label>
 						</div>
 						<div class="form-check form-check-inline form-check-right">
 							<label class="form-check-label">
-								POWER UNIT
+								<span class="font-weight-semibold">POWER UNIT</span>
 								<div class=""><span class="checked"><input type="radio" id="power_unit_radio" class="form-check-input-styled-danger" name="radio-inline-right" data-fouc=""></span></div>
 							</label>
 						</div>
