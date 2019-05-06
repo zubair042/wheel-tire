@@ -21,13 +21,19 @@ class Reports extends CI_Controller {
 
 	public function add_new_report(){
 		$post = $this->input->post();
-		//$data[]
-		echo '<pre>';
-		print_r($post);
-		// $this->load->model("common_model");
-		// $data = $this->common_model->insertGetIDQuery("reports", $post);
+		$data['vehicle_type'] = $post['vehicle_type'];
+		$data['weight'] = $post['lbs_weight'];
+		$data['unit_number'] = $post['unit_number'];
+		$data['name'] = $post['your_name'];
+		$data['position'] = $post['position_at_company'];
+		$data['comments'] = $post['comments'];
 		// echo '<pre>';
-		// print_r($post);
+		// print_r($data);
+		$this->load->model("common_model");
+		$data = $this->common_model->insertGetIDQuery("reports", $data);
+		//$this->load->view('reports/add_report');
+		// echo '<pre>';
+		 print_r($post);
 		//$data['weight']
 	
 	}

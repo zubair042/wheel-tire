@@ -10,13 +10,13 @@
 						<div class="form-check form-check-inline form-check-right">
 							<label class="form-check-label">
 								<span class="font-weight-semibold">TRAILER</span>
-								<div class=""><span class=""><input type="radio" id="trailer_radio" class="form-check-input-styled-danger" name="vehicle_type" checked="" data-fouc=""></span></div>
+								<div class=""><span class=""><input type="radio" id="trailer_radio" class="form-check-input-styled-danger" name="vehicle_type" value="trailer" checked="" data-fouc=""></span></div>
 							</label>
 						</div>
 						<div class="form-check form-check-inline form-check-right">
 							<label class="form-check-label">
 								<span class="font-weight-semibold">POWER UNIT</span>
-								<div class=""><span class="checked"><input type="radio" id="power_unit_radio" class="form-check-input-styled-danger" name="vehicle_type" data-fouc=""></span></div>
+								<div class=""><span class="checked"><input type="radio" id="power_unit_radio" class="form-check-input-styled-danger" name="vehicle_type" value="power_unit" data-fouc=""></span></div>
 							</label>
 						</div>
 					</div>
@@ -213,9 +213,13 @@
 
 <script type="text/javascript">
 
+
+
 	$("#trailer_powerunit").on("submit", function(e){
+		//var selectedOption = $("input:radio[name=vehicle_type]:checked").val()
 		e.preventDefault();
 		var formData = new FormData($(this)[0]);
+		//formData.append(selectedOption);
 		$.ajax({
 			url: '<?php echo site_url("reports/add_new_report"); ?>',
 			type: 'POST',
