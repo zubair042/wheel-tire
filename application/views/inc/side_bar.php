@@ -21,7 +21,7 @@
 					<ul class="nav nav-sidebar" data-nav-type="accordion">
 
 						<!-- Main -->
-						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Main</div> <i class="icon-menu" title="Main"></i></li>
+						
 						<li class="nav-item">
 							<a href="<?php echo site_url('dashboard'); ?>" class="nav-link active">
 								<i class="icon-home4"></i>
@@ -31,7 +31,7 @@
 							</a>
 						</li>
 						<li class="nav-item nav-item-submenu">
-							<a href="#" class="nav-link"><i class="icon-calendar3"></i> <span>Reports</span></a>
+							<a href="#" class="nav-link"><i class="icon-profile"></i> <span>Reports</span></a>
 
 							<ul class="nav nav-group-sub" data-submenu-title="Layouts">
 								<li class="nav-item"><a href="<?php echo site_url("reports"); ?>" class="nav-link">View List Reports</a></li>
@@ -39,7 +39,7 @@
 							</ul>
 						</li>
 						<li class="nav-item nav-item-submenu">
-							<a href="#" class="nav-link"><i class="icon-calendar3"></i> <span>Users</span></a>
+							<a href="#" class="nav-link"><i class="icon-users"></i> <span>Users</span></a>
 
 							<ul class="nav nav-group-sub" data-submenu-title="Layouts">
 								<li class="nav-item"><a href="<?php echo site_url("users"); ?>" class="nav-link">List Users</a></li>
