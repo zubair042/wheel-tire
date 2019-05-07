@@ -71,6 +71,7 @@ body {
                   <button type="button" class="close" data-dismiss="alert"><span>×</span></button>
                   <span class="font-weight-semibold">Warning!</span> Email already exists.</div>
                 </div>
+                <?php //echo validation_errors(); ?>
                 <div class="form-group">
                   <label for="name">Company ID</label>
                   <input type="text" class="form-control" name="company_id" placeholder="Enter your company ID">
