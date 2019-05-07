@@ -60,7 +60,6 @@ body {
           <form id="add_new_user" method="POST" enctype="multipart/form-data">
             <div class="card">
               <div class="card-header header-elements-inline" style="background: #708bea;height: 90px;">
-                <a href="<?php echo site_url('login'); ?>" class="btn btn-light legitRipple" role="menuitem"><i class="icon-arrow-left13"></i></a>
               </div>
 
               <div class="card-body" style="margin-top: 35px;">
@@ -90,6 +89,7 @@ body {
                   <input type="password" class="form-control" name="password" placeholder="Enter password ">
                 </div>
                 <div class="text-center" style="margin-top: 40px;">
+                  <a href="<?php echo site_url('login'); ?>" style="float: left;" class="btn btn-light legitRipple"><i class="icon-arrow-left13" style="color: #6178ca;"> Back</i></a>
                   <input type="submit" style="background: #6178ca;margin-bottom: 10px;" class="btn btn-primary" value="Sign Up">
                 </div> 
               </div>
