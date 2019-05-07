@@ -1,5 +1,5 @@
 <?php include(APPPATH."views/inc/header.php"); ?>
-
+<?php //echo "<pre>"; print_r($report_detail);exit; ?>
 <style type="text/css">
 	
 </style>
@@ -36,24 +36,23 @@
 					      </tr>
 					    </thead>
 					    <tbody>
-					      <tr id="table_row">
-					        <td><a href="<?php echo base_url('reports/view_report'); ?>" class="btn btn-success btn-sm legitRipple" style="margin-right: 10px; background-color: #4ec88a">View</a><span>2019 Mar 30 (22:31:16)</span></td>
-					        <td style="text-align: center;"><span>53467</span></td>
-					        <td style="text-align: center;"><span>Carson, CA</span></td>
-					        <td style="text-align: center;">John Smith</td>
-					        <td style="text-align: center;">650 lbs</td>
-					        <td style="text-align: center;">Bon Jones</td>
-					        <td class="text-center"><i class="icon-checkmark3 mr-3 icon-2x" style="color: #526fff;"></i></td>
-					      </tr>
-					      <tr id="table_row">
-					        <td><a href="javascript:;" class="btn btn-success btn-sm legitRipple" data-toggle="modal" data-target="#modal_photo" style="margin-right: 10px; background-color: #4ec88a">View</a><span>2019 Mar 30 (22:31:16)</span></td>
-					        <td style="text-align: center;"><span>53467</span></td>
-					        <td style="text-align: center;"><span>Carson, CA</span></td>
-					        <td style="text-align: center;">John Smith</td>
-					        <td style="text-align: center;">650 lbs</td>
-					        <td style="text-align: center;">Bon Jones</td>
-					        <td class="text-center"></td>
-					      </tr>
+					    	<?php if (count($report_detail) > 0) {
+					    		foreach ($report_detail as $detail) { ?>
+					    	
+					      	<tr id="table_row">
+					        	<td><a href="<?php echo base_url('reports/view_report/').$detail->id; ?>" class="btn btn-success btn-sm legitRipple" style="margin-right: 10px; background-color: #4ec88a">View</a><span><?php echo date("Y M d (H:i:s)",strtotime($detail->created_at)); ?></span></td>
+					        	<td style="text-align: center;"><span><?php echo $detail->unit_number; ?></span></td>
+					        	<td style="text-align: center;"><span></span></td>
+					        	<td style="text-align: center;"><?php echo $detail->name; ?></td>
+					        	<td style="text-align: center;"><?php echo $detail->weight; ?> lbs</td>
+					        	<td style="text-align: center;"></td>
+					        	<td class="text-center">
+					        		<?php if (!empty($detail->comments)) { ?>
+					        			<i class="icon-checkmark3 mr-3 icon-2x" style="color: #526fff;"></i>	
+					        		<?php } ?>
+					        	</td>	
+					      	</tr>
+					      	<?php }} ?>
 					    </tbody>
 				  	</table>
 				</div>

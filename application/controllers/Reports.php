@@ -12,7 +12,9 @@ class Reports extends CI_Controller {
 		$this->user_id = $user_session['user_id'];
 	}
 	public function index(){
-		$this->load->view('reports/index');
+		$this->load->model('common_model');
+		$data['report_detail'] = $this->common_model->listingResultWhere("user_id",$this->user_id,"reports");
+		$this->load->view('reports/index',$data);
 	}
 
 	public function add_report(){
