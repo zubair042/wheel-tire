@@ -236,7 +236,14 @@
 			success: function(e){
 				console.log(e);
 				//return false;
-				location.reload();
+				swal({
+					title: "Good job!",
+					type: 'success',
+					html: 'You have added a report successfully',
+					allowOutsideClick: false,
+		        }).then(function() {
+					location.reload();
+		        });
 			} 
 		});
 	});

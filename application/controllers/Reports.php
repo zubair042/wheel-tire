@@ -27,7 +27,7 @@ class Reports extends CI_Controller {
 		$data['user_id'] = $this->user_id;
 		$data['vehicle_type'] = $post['vehicle_type'];
 		$data['wheel_option1'] = $post['small_wheel'];
-		$data['wheel_option2'] = $post['front_wheel'];
+		$data['wheel_option2'] = $post['front_wheel'];	
 		$data['wheel_option3'] = $post['rear_wheel'];
 		$data['weight'] = $post['lbs_weight'];
 		$data['unit_number'] = $post['unit_number'];
