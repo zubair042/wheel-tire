@@ -16,7 +16,6 @@ class Dashboard extends CI_Controller {
 	{	
 		$this->load->model('common_model');
 		$data['report_detail'] = $this->common_model->listingResultWhere("user_id",$this->user_id,"reports");
-		//print_r($data);
 		$this->load->view('dashboard/index',$data);
 	}
 }
