@@ -101,7 +101,7 @@
 						</div>
 					</div>
 					<div class="row" id="power_unit_html" style="margin-top: 10px;padding: 12px;">
-						<div class="row" style="width: 1000%; margin-left: 0px;">
+						<div class="row" style="width: 100%; margin-left: 0px;">
 							<div class="col-md-12" style="background-color: #fafafa;">
 								<div class="col-md-6 offset-md-3" style="background-color: #fafafa;">
 									<div class="" style="text-align: center; padding-top: 30px;">
