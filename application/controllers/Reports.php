@@ -22,7 +22,11 @@ class Reports extends CI_Controller {
 	public function add_new_report(){
 		$post = $this->input->post();
 		//print_r($post);exit();
+		$data['user_id'] = $this->user_id;
 		$data['vehicle_type'] = $post['vehicle_type'];
+		$data['wheel_option1'] = $post['small_wheel'];
+		$data['wheel_option2'] = $post['front_wheel'];
+		$data['wheel_option3'] = $post['rear_wheel'];
 		$data['weight'] = $post['lbs_weight'];
 		$data['unit_number'] = $post['unit_number'];
 		$data['name'] = $post['your_name'];

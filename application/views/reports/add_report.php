@@ -30,7 +30,7 @@
 									<div class="form-check form-check-inline form-check-right">
 										<label class="form-check-label">
 											<span class="font-weight-bold text-primary" style="font-size: 15px;">LS</span>
-											<input type="radio" id="power_unit_radio" class="form-check-input-styled-danger" checked="" name="radio-inline1" value="LS" data-fouc="">
+											<input type="radio" id="power_unit_radio" class="form-check-input-styled-danger" checked="" name="small_wheel" value="LS" data-fouc="">
 										</label>
 									</div>
 								</div>
@@ -42,7 +42,7 @@
 								<div class="align-self-center ml-3">
 									<div class="form-check form-check-inline form-check-right">
 										<label class="form-check-label">
-											<input type="radio" class="form-check-input-styled-danger" name="radio-inline1" value="RS" data-fouc="">&nbsp;&nbsp; <span class="font-weight-bold text-primary" style="font-size: 15px;">RS</span>
+											<input type="radio" class="form-check-input-styled-danger" name="small_wheel" value="RS" data-fouc="">&nbsp;&nbsp; <span class="font-weight-bold text-primary" style="font-size: 15px;">RS</span>
 										</label>
 									</div>
 								</div>
@@ -52,19 +52,19 @@
 									<div class="form-check form-check-inline form-check-right">
 										<label class="form-check-label">
 											<span class="font-weight-bold text-primary" style="font-size: 15px;">LF</span>
-											<input type="radio" id="power_unit_radio" class="form-check-input-styled-danger" checked="" name="radio-inline" value="LF" data-fouc="">
+											<input type="radio" id="power_unit_radio" class="form-check-input-styled-danger" checked="" name="front_wheel" value="LF" data-fouc="">
 										</label>
 									</div>
 								</div>
 
 								<div class="media-body" style="text-align: center;">
-								 	<img src="http://localhost/wheel-tire/assets/images/placeholders/fr.png" class="" width="100%" height="120" alt="">
+								 	<img src="<?php echo base_url(); ?>assets/images/placeholders/fr.png" class="" width="100%" height="120" alt="">
 								</div>
 
 								<div class="align-self-center ml-3">
 									<div class="form-check form-check-inline form-check-right">
 										<label class="form-check-label">
-											<input type="radio" class="form-check-input-styled-danger" name="radio-inline" value="RF" data-fouc="">&nbsp;&nbsp; <span class="font-weight-bold text-primary" style="font-size: 15px;">RF</span>
+											<input type="radio" class="form-check-input-styled-danger" name="front_wheel" value="RF" data-fouc="">&nbsp;&nbsp; <span class="font-weight-bold text-primary" style="font-size: 15px;">RF</span>
 										</label>
 									</div>
 								</div>
@@ -74,19 +74,19 @@
 									<div class="form-check form-check-inline form-check-right">
 										<label class="form-check-label">
 											<span class="font-weight-bold text-primary" style="font-size: 15px;">LR</span>
-											<input type="radio" id="power_unit_radio" class="form-check-input-styled-danger" name="radio-inline-r" value="LR" data-fouc="" checked="">
+											<input type="radio" id="power_unit_radio" class="form-check-input-styled-danger" name="rear_wheel" value="LR" data-fouc="" checked="">
 										</label>
 									</div>
 								</div>
 
 								<div class="media-body" style="text-align: center;">
-									<img src="http://localhost/wheel-tire/assets/images/placeholders/fr.png" class="" width="100%" height="120" alt="">
+									<img src="<?php echo base_url(); ?>assets/images/placeholders/fr.png" class="" width="100%" height="120" alt="">
 								</div>
 
 								<div class="align-self-center ml-3">
 									<div class="form-check form-check-inline form-check-right">
 										<label class="form-check-label">
-											<input type="radio" class="form-check-input-styled-danger" name="radio-inline-r" value="RR" data-fouc="">&nbsp;&nbsp; <span class="font-weight-bold text-primary" style="font-size: 15px;">RR</span>
+											<input type="radio" class="form-check-input-styled-danger" name="rear_wheel" value="RR" data-fouc="">&nbsp;&nbsp; <span class="font-weight-bold text-primary" style="font-size: 15px;">RR</span>
 										</label>
 									</div>
 								</div>
@@ -106,19 +106,19 @@
 									<div class="form-check form-check-inline form-check-right">
 										<label class="form-check-label">
 											<span class="font-weight-bold text-primary" style="font-size: 15px;">LF</span>
-											<input type="radio" id="power_unit_radio" class="form-check-input-styled-danger" checked="" name="radio-inline" value="LF" data-fouc="">
+											<input type="radio" id="power_unit_radio" class="form-check-input-styled-danger" checked="" name="front_wheel" value="LF" data-fouc="">
 										</label>
 									</div>
 								</div>
 
 								<div class="media-body" style="text-align: center;">
-								 	<img src="http://localhost/wheel-tire/assets/images/placeholders/fr.png" class="" width="100%" height="120" alt="">
+								 	<img src="<?php echo base_url(); ?>assets/images/placeholders/fr.png" class="" width="100%" height="120" alt="">
 								</div>
 
 								<div class="align-self-center ml-3">
 									<div class="form-check form-check-inline form-check-right">
 										<label class="form-check-label">
-											<input type="radio" class="form-check-input-styled-danger" name="radio-inline" value="RF" data-fouc="">&nbsp;&nbsp; <span class="font-weight-bold text-primary" style="font-size: 15px;">RF</span>
+											<input type="radio" class="form-check-input-styled-danger" name="front_wheel" value="RF" data-fouc="">&nbsp;&nbsp; <span class="font-weight-bold text-primary" style="font-size: 15px;">RF</span>
 										</label>
 									</div>
 								</div>
@@ -128,19 +128,19 @@
 									<div class="form-check form-check-inline form-check-right">
 										<label class="form-check-label">
 											<span class="font-weight-bold text-primary" style="font-size: 15px;">LR</span>
-											<input type="radio" id="power_unit_radio" class="form-check-input-styled-danger" name="radio-inline-r" value="LR" data-fouc="" checked="">
+											<input type="radio" id="power_unit_radio" class="form-check-input-styled-danger" name="rear_wheel" value="LR" data-fouc="" checked="">
 										</label>
 									</div>
 								</div>
 
 								<div class="media-body" style="text-align: center;">
-									<img src="http://localhost/wheel-tire/assets/images/placeholders/fr.png" class="" width="100%" height="120" alt="">
+									<img src="<?php echo base_url(); ?>assets/images/placeholders/fr.png" class="" width="100%" height="120" alt="">
 								</div>
 
 								<div class="align-self-center ml-3">
 									<div class="form-check form-check-inline form-check-right">
 										<label class="form-check-label">
-											<input type="radio" class="form-check-input-styled-danger" name="radio-inline-r" value="RR" data-fouc="">&nbsp;&nbsp; <span class="font-weight-bold text-primary" style="font-size: 15px;">RR</span>
+											<input type="radio" class="form-check-input-styled-danger" name="rear_wheel" value="RR" data-fouc="">&nbsp;&nbsp; <span class="font-weight-bold text-primary" style="font-size: 15px;">RR</span>
 										</label>
 									</div>
 								</div>
@@ -229,6 +229,8 @@
 			processData: false,
 			success: function(e){
 				console.log(e);
+				//return false;
+				location.reload();
 			} 
 		});
 	});
