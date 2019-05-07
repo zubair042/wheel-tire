@@ -89,7 +89,7 @@ body {
                   <input type="password" class="form-control" name="password" placeholder="Enter password ">
                 </div>
                 <div class="text-center" style="margin-top: 40px;">
-                  <a href="<?php echo site_url('login'); ?>" style="float: left;" class="btn btn-light legitRipple"><i class="icon-arrow-left13" style="color: #6178ca;"> Back</i></a>
+                  <a href="<?php echo site_url('login'); ?>" style="float: left; color:#6178ca;" class="btn btn-light legitRipple"><i class="icon-arrow-left13" style="color: #6178ca;"></i> Login</a>
                   <input type="submit" style="background: #6178ca;margin-bottom: 10px;" class="btn btn-primary" value="Sign Up">
                 </div> 
               </div>
