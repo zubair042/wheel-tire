@@ -1,5 +1,4 @@
 <?php include(APPPATH."views/inc/header.php"); ?>
-<?php //echo "<pre>"; print_r($report_detail);exit; ?>
 <style type="text/css">
 	
 </style>
