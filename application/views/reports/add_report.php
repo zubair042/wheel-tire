@@ -188,7 +188,7 @@
 					    </div>
 					    <div class="row" style="margin-top: 10px;">
 					    	<div class="col-md-2 offset-md-5">
-					    		<select class="custom-select" name="position_at_company">
+					    		<select class="custom-select" name="position_at_company" class="select_select2">
 					                <option value="Manager"><span>Manager</span></option>
 					                <option value="Worker">Worker</option>
 					                <option value="Salesman">Salesman</option>
@@ -220,8 +220,6 @@
 
 
 <script type="text/javascript">
-
-
 
 	$("#trailer_powerunit").on("submit", function(e){
 		//var selectedOption = $("input:radio[name=vehicle_type]:checked").val()
