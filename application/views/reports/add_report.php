@@ -21,132 +21,140 @@
 						</div>
 					</div>
 					<div class="row" id="trailer_html" style="display:none;margin-top: 10px;padding: 12px;">
-						<div class="col-md-6 offset-md-3" style="background-color: #fafafa;">
-							<div class="" style="text-align: center; padding-top: 30px;">
-								<h5>SELECT WHEEL POSITION YOU WORKED ON</h5>
+						<div class="row" style="width: 100%; margin-left: 0px;">
+							<div class="col-md-12" style="background-color: #fafafa;">
+								<div class="col-md-6 offset-md-3" style="background-color: #fafafa;">
+									<div class="" style="text-align: center; padding-top: 30px;">
+										<h5>SELECT WHEEL POSITION YOU WORKED ON</h5>
+									</div>
+									<li class="media">
+										<div class="mr-3" style="margin-top: 47px;">
+											<div class="form-check form-check-inline form-check-right">
+												<label class="form-check-label">
+													<span class="font-weight-bold text-primary" style="font-size: 15px;">LS</span>
+													<input type="radio" id="power_unit_radio" class="form-check-input-styled-danger" checked="" name="small_wheel" value="LS" data-fouc="">
+												</label>
+											</div>
+										</div>
+
+										<div class="media-body" style="text-align: center;">
+										 	<img src="<?php echo base_url(); ?>assets/images/placeholders/fr1.png" class="" width="80%" height="120" alt="">
+										</div>
+
+										<div class="align-self-center ml-3">
+											<div class="form-check form-check-inline form-check-right">
+												<label class="form-check-label">
+													<input type="radio" class="form-check-input-styled-danger" name="small_wheel" value="RS" data-fouc="">&nbsp;&nbsp; <span class="font-weight-bold text-primary" style="font-size: 15px;">RS</span>
+												</label>
+											</div>
+										</div>
+									</li>
+									<li class="media">
+										<div class="mr-3" style="margin-top: 47px;">
+											<div class="form-check form-check-inline form-check-right">
+												<label class="form-check-label">
+													<span class="font-weight-bold text-primary" style="font-size: 15px;">LF</span>
+													<input type="radio" id="power_unit_radio" class="form-check-input-styled-danger" checked="" name="front_wheel" value="LF" data-fouc="">
+												</label>
+											</div>
+										</div>
+
+										<div class="media-body" style="text-align: center;">
+										 	<img src="<?php echo base_url(); ?>assets/images/placeholders/fr.png" class="" width="100%" height="120" alt="">
+										</div>
+
+										<div class="align-self-center ml-3">
+											<div class="form-check form-check-inline form-check-right">
+												<label class="form-check-label">
+													<input type="radio" class="form-check-input-styled-danger" name="front_wheel" value="RF" data-fouc="">&nbsp;&nbsp; <span class="font-weight-bold text-primary" style="font-size: 15px;">RF</span>
+												</label>
+											</div>
+										</div>
+									</li>
+									<li class="media">
+										<div class="mr-3" style="margin-top: 47px;">
+											<div class="form-check form-check-inline form-check-right">
+												<label class="form-check-label">
+													<span class="font-weight-bold text-primary" style="font-size: 15px;">LR</span>
+													<input type="radio" id="power_unit_radio" class="form-check-input-styled-danger" name="rear_wheel" value="LR" data-fouc="" checked="">
+												</label>
+											</div>
+										</div>
+
+										<div class="media-body" style="text-align: center;">
+											<img src="<?php echo base_url(); ?>assets/images/placeholders/fr.png" class="" width="100%" height="120" alt="">
+										</div>
+
+										<div class="align-self-center ml-3">
+											<div class="form-check form-check-inline form-check-right">
+												<label class="form-check-label">
+													<input type="radio" class="form-check-input-styled-danger" name="rear_wheel" value="RR" data-fouc="">&nbsp;&nbsp; <span class="font-weight-bold text-primary" style="font-size: 15px;">RR</span>
+												</label>
+											</div>
+										</div>
+									</li>
+									<div class="" style="text-align: center; padding-top: 30px; padding-bottom: 10px;">
+										<h5>If you pull the hub you MUST take photo of completed wheel-end!</h5>
+									</div>	
+								</div>
 							</div>
-							<li class="media">
-								<div class="mr-3" style="margin-top: 47px;">
-									<div class="form-check form-check-inline form-check-right">
-										<label class="form-check-label">
-											<span class="font-weight-bold text-primary" style="font-size: 15px;">LS</span>
-											<input type="radio" id="power_unit_radio" class="form-check-input-styled-danger" checked="" name="small_wheel" value="LS" data-fouc="">
-										</label>
-									</div>
-								</div>
-
-								<div class="media-body" style="text-align: center;">
-								 	<img src="<?php echo base_url(); ?>assets/images/placeholders/fr1.png" class="" width="80%" height="120" alt="">
-								</div>
-
-								<div class="align-self-center ml-3">
-									<div class="form-check form-check-inline form-check-right">
-										<label class="form-check-label">
-											<input type="radio" class="form-check-input-styled-danger" name="small_wheel" value="RS" data-fouc="">&nbsp;&nbsp; <span class="font-weight-bold text-primary" style="font-size: 15px;">RS</span>
-										</label>
-									</div>
-								</div>
-							</li>
-							<li class="media">
-								<div class="mr-3" style="margin-top: 47px;">
-									<div class="form-check form-check-inline form-check-right">
-										<label class="form-check-label">
-											<span class="font-weight-bold text-primary" style="font-size: 15px;">LF</span>
-											<input type="radio" id="power_unit_radio" class="form-check-input-styled-danger" checked="" name="front_wheel" value="LF" data-fouc="">
-										</label>
-									</div>
-								</div>
-
-								<div class="media-body" style="text-align: center;">
-								 	<img src="<?php echo base_url(); ?>assets/images/placeholders/fr.png" class="" width="100%" height="120" alt="">
-								</div>
-
-								<div class="align-self-center ml-3">
-									<div class="form-check form-check-inline form-check-right">
-										<label class="form-check-label">
-											<input type="radio" class="form-check-input-styled-danger" name="front_wheel" value="RF" data-fouc="">&nbsp;&nbsp; <span class="font-weight-bold text-primary" style="font-size: 15px;">RF</span>
-										</label>
-									</div>
-								</div>
-							</li>
-							<li class="media">
-								<div class="mr-3" style="margin-top: 47px;">
-									<div class="form-check form-check-inline form-check-right">
-										<label class="form-check-label">
-											<span class="font-weight-bold text-primary" style="font-size: 15px;">LR</span>
-											<input type="radio" id="power_unit_radio" class="form-check-input-styled-danger" name="rear_wheel" value="LR" data-fouc="" checked="">
-										</label>
-									</div>
-								</div>
-
-								<div class="media-body" style="text-align: center;">
-									<img src="<?php echo base_url(); ?>assets/images/placeholders/fr.png" class="" width="100%" height="120" alt="">
-								</div>
-
-								<div class="align-self-center ml-3">
-									<div class="form-check form-check-inline form-check-right">
-										<label class="form-check-label">
-											<input type="radio" class="form-check-input-styled-danger" name="rear_wheel" value="RR" data-fouc="">&nbsp;&nbsp; <span class="font-weight-bold text-primary" style="font-size: 15px;">RR</span>
-										</label>
-									</div>
-								</div>
-							</li>
-							<div class="" style="text-align: center; padding-top: 30px; padding-bottom: 10px;">
-								<h5>If you pull the hub you MUST take photo of completed wheel-end!</h5>
-							</div>	
 						</div>
 					</div>
 					<div class="row" id="power_unit_html" style="margin-top: 10px;padding: 12px;">
-						<div class="col-md-6 offset-md-3" style="background-color: #fafafa;">
-							<div class="" style="text-align: center; padding-top: 30px;">
-								<h5>SELECT WHEEL POSITION YOU WORKED ON</h5>
-							</div>
-							<li class="media">
-								<div class="mr-3" style="margin-top: 47px;">
-									<div class="form-check form-check-inline form-check-right">
-										<label class="form-check-label">
-											<span class="font-weight-bold text-primary" style="font-size: 15px;">LF</span>
-											<input type="radio" id="power_unit_radio" class="form-check-input-styled-danger" checked="" name="front_wheel" value="LF" data-fouc="">
-										</label>
+						<div class="row" style="width: 1000%; margin-left: 0px;">
+							<div class="col-md-12" style="background-color: #fafafa;">
+								<div class="col-md-6 offset-md-3" style="background-color: #fafafa;">
+									<div class="" style="text-align: center; padding-top: 30px;">
+										<h5>SELECT WHEEL POSITION YOU WORKED ON</h5>
+									</div>
+									<li class="media">
+										<div class="mr-3" style="margin-top: 47px;">
+											<div class="form-check form-check-inline form-check-right">
+												<label class="form-check-label">
+													<span class="font-weight-bold text-primary" style="font-size: 15px;">LF</span>
+													<input type="radio" id="power_unit_radio" class="form-check-input-styled-danger" checked="" name="front_wheel" value="LF" data-fouc="">
+												</label>
+											</div>
+										</div>
+
+										<div class="media-body" style="text-align: center;">
+										 	<img src="<?php echo base_url(); ?>assets/images/placeholders/fr.png" class="" width="100%" height="120" alt="">
+										</div>
+
+										<div class="align-self-center ml-3">
+											<div class="form-check form-check-inline form-check-right">
+												<label class="form-check-label">
+													<input type="radio" class="form-check-input-styled-danger" name="front_wheel" value="RF" data-fouc="">&nbsp;&nbsp; <span class="font-weight-bold text-primary" style="font-size: 15px;">RF</span>
+												</label>
+											</div>
+										</div>
+									</li>
+									<li class="media">
+										<div class="mr-3" style="margin-top: 47px;">
+											<div class="form-check form-check-inline form-check-right">
+												<label class="form-check-label">
+													<span class="font-weight-bold text-primary" style="font-size: 15px;">LR</span>
+													<input type="radio" id="power_unit_radio" class="form-check-input-styled-danger" name="rear_wheel" value="LR" data-fouc="" checked="">
+												</label>
+											</div>
+										</div>
+
+										<div class="media-body" style="text-align: center;">
+											<img src="<?php echo base_url(); ?>assets/images/placeholders/fr.png" class="" width="100%" height="120" alt="">
+										</div>
+
+										<div class="align-self-center ml-3">
+											<div class="form-check form-check-inline form-check-right">
+												<label class="form-check-label">
+													<input type="radio" class="form-check-input-styled-danger" name="rear_wheel" value="RR" data-fouc="">&nbsp;&nbsp; <span class="font-weight-bold text-primary" style="font-size: 15px;">RR</span>
+												</label>
+											</div>
+										</div>
+									</li>
+									<div class="" style="text-align: center; padding-top: 30px; padding-bottom: 10px;">
+										<h5>If you pull the hub you MUST take photo of completed wheel-end!</h5>
 									</div>
 								</div>
-
-								<div class="media-body" style="text-align: center;">
-								 	<img src="<?php echo base_url(); ?>assets/images/placeholders/fr.png" class="" width="100%" height="120" alt="">
-								</div>
-
-								<div class="align-self-center ml-3">
-									<div class="form-check form-check-inline form-check-right">
-										<label class="form-check-label">
-											<input type="radio" class="form-check-input-styled-danger" name="front_wheel" value="RF" data-fouc="">&nbsp;&nbsp; <span class="font-weight-bold text-primary" style="font-size: 15px;">RF</span>
-										</label>
-									</div>
-								</div>
-							</li>
-							<li class="media">
-								<div class="mr-3" style="margin-top: 47px;">
-									<div class="form-check form-check-inline form-check-right">
-										<label class="form-check-label">
-											<span class="font-weight-bold text-primary" style="font-size: 15px;">LR</span>
-											<input type="radio" id="power_unit_radio" class="form-check-input-styled-danger" name="rear_wheel" value="LR" data-fouc="" checked="">
-										</label>
-									</div>
-								</div>
-
-								<div class="media-body" style="text-align: center;">
-									<img src="<?php echo base_url(); ?>assets/images/placeholders/fr.png" class="" width="100%" height="120" alt="">
-								</div>
-
-								<div class="align-self-center ml-3">
-									<div class="form-check form-check-inline form-check-right">
-										<label class="form-check-label">
-											<input type="radio" class="form-check-input-styled-danger" name="rear_wheel" value="RR" data-fouc="">&nbsp;&nbsp; <span class="font-weight-bold text-primary" style="font-size: 15px;">RR</span>
-										</label>
-									</div>
-								</div>
-							</li>
-							<div class="" style="text-align: center; padding-top: 30px; padding-bottom: 10px;">
-								<h5>If you pull the hub you MUST take photo of completed wheel-end!</h5>
 							</div>
 						</div>
 					</div>
